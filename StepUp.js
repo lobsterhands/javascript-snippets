@@ -11,16 +11,15 @@
 function StepUp(n) {
     var message = '';
     for (var i = 0; i < n; i++) {
-        for (var j = n-1; j >= 0; j--) {
-            if (i < j) {
-                message += ' ';
+        for (var j = 0; j < n; j++) {
+            if (i + j >= n-1) {
+                message += '#'; 
             } else {
-                message += "#";
+                message += ' ';
             }
         }
         console.log(message);
         message = '';
     }
 }
-
 StepUp(6);

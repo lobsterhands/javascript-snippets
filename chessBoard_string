@@ -29,7 +29,7 @@ for (var i = 0; i < 64; i++) {
   
   if (i % 8 == 0) {
   	lineNum ++;
-    string += '\n';
+   string += '\n';
   }
 }
 console.log(string);

@@ -20,9 +20,8 @@ for (var i = 0; i < 64; i++) {
       string += ' ';
     else
       string += '#';
-  }
-  else {
-	if (i % 2 == 0)
+  } else {
+    if (i % 2 == 0)
       string += '#';
     else
       string += ' ';
